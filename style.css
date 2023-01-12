@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 102%;
+}
+.container{
+    width: 98%;
+}
+.header{
+    height: 30px;
+    background: linear-gradient(to right,red,green,yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+h1{
+    font-size: x-large;
+}
+.nav{
+    background-color: cadetblue;
+    width: 750px;
+    margin: auto;
+    margin-top: 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+ul{
+    display: inline-block; 
+    text-align: left;
+}
+.boxcontainer1{
+    height: auto;
+    background-color: aqua;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+.box{
+    width: 33%;
+    height: 66px;
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+}
+.heading2{
+    height: 40px;
+    background: linear-gradient(to right,red,yellow,red);
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: smaller;
+    text-decoration: underline rgba(255,0,0,0.5);
+}
+.achievements{
+    height: 300px;
+    border: 3px solid green;
+    background: radial-gradient(blue,rgba(0,255,0,0.6));
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.achievementbox{
+    width: 220px;
+    height: 110px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+    color: darkred;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.boxcontainer2{
+    border: 1px solid gray;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto 80px;
+    grid-template-rows: repeat(4,auto);
+    height: auto;
+    grid-gap: 10px;
+    margin-bottom: 50px;
+}
+.gridbox1{
+    height: 50px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: rgb(223, 38, 75);
+    color: white;
+    text-align: center;
+}
+.gridbox2{
+    height: 70px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgba(25, 238, 25,0.7);
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.gridbox3{
+    height: 70px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: dodgerblue;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+}
+.gridbox4{
+    height: 70px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgb(47, 49, 187);
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.gridbox5{
+    width: 80px;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    font-size: medium;
+}
+.gridbox6{
+    height: 150px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: rgb(250, 105, 52);
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+.gridbox7{
+    height: 23px;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+}
